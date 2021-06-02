@@ -2,6 +2,30 @@ package problems.easy;
 
 import org.junit.Test;
 
+/*
+Problem  : Reverse String 
+https://leetcode.com/problems/reverse-string/
+Author 	 : BK
+Version	 : 1.0
+Leetcode Submission:
+
+class Solution {
+    public void reverseString(char[] s) {
+		int j;
+        char temp;
+        j= s.length-1;
+		for (int i = 0; i < s.length/2; i++) {
+            temp=s[i];
+			s[i]=s[j];
+            s[j]=temp;
+			j--;
+		}
+        
+    }
+}
+
+*/
+
 public class StringReverse {
 
 	@Test
