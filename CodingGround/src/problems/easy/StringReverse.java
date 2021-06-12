@@ -7,6 +7,8 @@ Problem  : Reverse String
 https://leetcode.com/problems/reverse-string/
 Author 	 : BK
 Version	 : 1.0
+Time Complexity:O[N/2]
+Space Complexity:O[1]
 Leetcode Submission:
 
 class Solution {
