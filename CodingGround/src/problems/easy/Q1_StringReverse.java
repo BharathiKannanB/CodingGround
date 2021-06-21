@@ -3,6 +3,7 @@ package problems.easy;
 import org.junit.Test;
 
 /*
+S.No.    : 1
 Problem  : Reverse String 
 https://leetcode.com/problems/reverse-string/
 Author 	 : BK
@@ -28,7 +29,7 @@ class Solution {
 
 */
 
-public class StringReverse {
+public class Q1_StringReverse {
 
 	@Test
 	public void testcase_1()
