@@ -14,7 +14,7 @@ import org.junit.Test;
  * Problem : First Unique Character in a String	 
  * Link : https://leetcode.com/problems/first-unique-character-in-a-string/
  * Author : BK 
- * Version : 1.0
+ * Version : 2.0
  * Time Complexity:O[N] 
  * Space Complexity:O[1]
  */
