@@ -12,7 +12,7 @@ Version	 : 1.0
 Time Complexity:O[N]
 Space Complexity:O[1]*/
 
-public class Q4_MoveZeroes {
+public class Q04_MoveZeroes {
 
 	@Test
 	public void testcase1() {

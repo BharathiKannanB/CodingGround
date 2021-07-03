@@ -29,7 +29,7 @@ class Solution {
 
 */
 
-public class Q1_StringReverse {
+public class Q01_StringReverse {
 
 	@Test
 	public void testcase_1()

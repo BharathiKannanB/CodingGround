@@ -19,7 +19,7 @@ import org.junit.Test;
  * Space Complexity:O[1]
  */
 
-public class Q9_FirstUniqueCharacter {
+public class Q09_FirstUniqueCharacter {
 	@Test
 	public void testcase1() {
 		String s ="leetcode";

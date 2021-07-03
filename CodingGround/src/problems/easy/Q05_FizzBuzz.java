@@ -13,7 +13,7 @@ Version	 : 1.0
 Time Complexity:O[N]
 Space Complexity:O[1]*/
 
-public class Q5_FizzBuzz {
+public class Q05_FizzBuzz {
 	
 	@Test
 	public void testcase1() {

@@ -12,7 +12,7 @@ Version	 : 1.0
 Time Complexity:O[N]
 Space Complexity:O[1]*/
 
-public class Q3_ValidateAnagram {
+public class Q03_ValidateAnagram {
 	@Test
 	public void testcase_1() {
 		String s = "anagram";

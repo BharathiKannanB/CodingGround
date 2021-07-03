@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-public class Q8_MissingNumbers {
+public class Q08_MissingNumbers {
 	
 	/*
 	 * S.No. : 8 

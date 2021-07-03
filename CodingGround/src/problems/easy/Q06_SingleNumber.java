@@ -5,7 +5,7 @@ import java.util.Map;
 
 import org.junit.Test;
 
-public class Q6_SingleNumber {
+public class Q06_SingleNumber {
 
 	/*S.No.  : 6
 	Problem  : Single Number
