@@ -18,7 +18,7 @@ import org.junit.Test;
 public class Day02_KClosestElement {
 	
 	@Test
-	private void testcase1() {
+	public void testcase1() {
 		int[] arr = {1,2,3,4,5};
 		int k = 4;
 		int x=3;
@@ -26,7 +26,7 @@ public class Day02_KClosestElement {
 	}
 
 	@Test
-	private void testcase2() {
+	public void testcase2() {
 		int[] arr = {1,2,3,4,5};
 		int k = 4;
 		int x=-1;
