@@ -3,7 +3,7 @@ package problems.easy;
 import org.junit.Test;
 
 /*
- * S.No. : 22
+ * S.No. : 23
  * Problem : Best Time to Buy and Sell Stock II
  * Link : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
  * Author : BK 
