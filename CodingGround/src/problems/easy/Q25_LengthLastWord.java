@@ -5,7 +5,7 @@ import java.util.Arrays;
 import org.junit.Test;
 
 /*
- * S.No. : 58
+ * S.No. : 25
  * Problem : Length of Last Word
  * Link : https://leetcode.com/problems/length-of-last-word/
  * Author : BK 
