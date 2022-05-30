@@ -7,8 +7,8 @@ import java.util.Map;
 import org.junit.Test;
 
 /*
- * S.No. : 27
- * Problem : Rotate String
+ * S.No. : 28
+ * Problem : Sum of Unique Elements
  * Link : https://leetcode.com/problems/rotate-string/
  * Author : BK 
  * Version : 1.0

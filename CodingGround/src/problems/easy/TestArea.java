@@ -8,15 +8,15 @@ import java.util.Scanner;
 import org.junit.Test;
 
 public class TestArea {
-	//@Test
+	@Test
 	public void listPractise() {
-		List<Character> test = new ArrayList<Character>();
-		test.add('a');
-		test.add('b');
-		test.add('c');
-		test.remove(0);
-		test.add('a');
-		System.out.println(test);
+		List<Integer> al = new ArrayList<Integer>();
+		al.add(0);
+		al.add(1);
+		al.add(3);
+		System.out.println(al);
+		al.remove(2);
+		System.out.println(al);
 	}
 	
 	//@Test
@@ -39,7 +39,7 @@ public class TestArea {
 		System.out.println(Arrays.deepToString(op));
 	}
 	
-	@Test
+	//@Test
 		public void performArray() {
 			int a[] = {1,2,3};
 			int b[] = {1,3,2};
