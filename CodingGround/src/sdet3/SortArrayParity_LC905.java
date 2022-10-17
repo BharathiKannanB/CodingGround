@@ -9,7 +9,7 @@ public class SortArrayParity_LC905 {
 	
 /*	Problem  :  Sort Array By Parity - https://leetcode.com/problems/sort-array-by-parity/solution/
 	Time Complexity:O[N]
-	Space Complexity:O[N]  */
+	Space Complexity:O[1]  */
 	
 	@Test
 	public void testData1() {           //  Exp OP - 2,4,3,1
