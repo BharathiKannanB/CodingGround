@@ -23,19 +23,19 @@ public class MaximumProductSubArray_LC152_Medium {
 		Assert.assertEquals(solveMaxiumumProductSubArray(nums), 48);
 	}
 	
-	//@Test
+	@Test
 	public void testData3() {
 		int[] nums = {2,3,4,4};
 		Assert.assertEquals(solveMaxiumumProductSubArray(nums), 96);
 	}
 	
-	//@Test
+	@Test
 	public void testData4() {
 		int[] nums = {-2,0,-1};
 		Assert.assertEquals(solveMaxiumumProductSubArray(nums), 0);
 	}
 	
-	/* Pseudocode:
+	/* Pseudocode:(needs to be updated)
 	 * - Initialize two pointers grow and shrink
 	 * - Initialize current_product and max_product
 	 * -  Iterate through the input array till shrink less than length of array
@@ -49,18 +49,15 @@ public class MaximumProductSubArray_LC152_Medium {
 
 	private int solveMaxiumumProductSubArray(int[] nums) {
 		if(nums.length==1) return nums[0];
-		int grow=1,shrink=0,curr_product=nums[shrink],max_product=Integer.MIN_VALUE;
-		while(grow<nums.length) {
-			if(curr_product<=curr_product*nums[grow]) {
-				curr_product=curr_product*nums[grow++];
-			}
-			else {
-				max_product = Math.max(curr_product, max_product);
-				shrink++;
-			}
-			if(shrink==grow) grow++;
+		int left=1,right=1,max=nums[0];
+		for(int i=0;i<nums.length;i++) {
+			left = left==0?1:left;
+			right = right==0?1:right;
+			left *= nums[i];
+			right *= nums[nums.length-i-1];
+			max = Math.max(max, Math.max(left, right));
 		}
-		return max_product;
+		return max;
 	}
 
 }
